@@ -47,6 +47,10 @@
         </div>
       </div>
     </nav>
-    <%= yield %>
+    <main>
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+      <%= yield %>
+    </main>
   </body>
 </html>
